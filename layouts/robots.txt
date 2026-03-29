@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://musclelove-777.github.io/goods-lab/sitemap.xml

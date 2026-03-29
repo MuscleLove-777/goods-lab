@@ -1,0 +1,137 @@
+baseURL = "https://musclelove-777.github.io/goods-lab/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "大人のおもちゃ研究所 | アダルトグッズ厳選レビュー"
+theme = "PaperMod"
+paginate = 30
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.7
+  filename = "sitemap.xml"
+
+[params]
+  env = "production"
+  canonicalURL = true
+  description = "オナホ・バイブ・TENGA・ローション…アダルトグッズを専門家目線で毎日レビュー。価格比較・使用感レビュー付き"
+  author = "大人のおもちゃ研究所"
+  images = ["https://musclelove-777.github.io/goods-lab/favicon.svg"]
+  keywords = ["オナホ おすすめ ランキング", "アダルトグッズ レビュー", "TENGA おすすめ", "バイブ 人気", "ローション おすすめ", "大人のおもちゃ 比較", "オナホール 口コミ", "アダルトグッズ 初心者"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "大人のおもちゃ研究所"
+    Content = "アダルトグッズを毎日厳選レビュー！使用感・価格・おすすめ度をわかりやすく紹介。Presented by MuscleLove"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "🔥 新着"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "オナホ"
+  url = "/categories/onahole/"
+  weight = 10
+
+[[menus.main]]
+  name = "バイブ"
+  url = "/categories/vibrator/"
+  weight = 20
+
+[[menus.main]]
+  name = "TENGA"
+  url = "/categories/tenga/"
+  weight = 30
+
+[[menus.main]]
+  name = "ローション"
+  url = "/categories/lotion/"
+  weight = 40
+
+[[menus.main]]
+  name = "コスプレ衣装"
+  url = "/categories/cosplaygoods/"
+  weight = 50
+
+[[menus.main]]
+  name = "SMグッズ"
+  url = "/categories/smgoods/"
+  weight = 60
+
+[[menus.main]]
+  name = "カップル"
+  url = "/categories/couple/"
+  weight = 70
+
+[[menus.main]]
+  name = "新商品"
+  url = "/categories/newgoods/"
+  weight = 80
+
+[[menus.main]]
+  name = "🏆 ランキング"
+  url = "/categories/ranking/"
+  weight = 90
+
+[[menus.main]]
+  name = "全カテゴリ"
+  url = "/categories/"
+  weight = 110
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 120
