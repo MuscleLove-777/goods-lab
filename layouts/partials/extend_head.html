@@ -1,3 +1,16 @@
+{{/* ページネーション2ページ目以降をnoindex */}}
+{{ if and (.IsNode) (.Paginator) (gt .Paginator.PageNumber 1) }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
+
+{{/* タグページをnoindex。カテゴリページは除外 */}}
+{{ if and (eq .Kind "term") (eq .Data.Singular "tag") }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
+{{ if eq .Kind "taxonomy" }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
+
 {{ if .IsPage }}
 <script type="application/ld+json">
 {
@@ -28,11 +41,6 @@
 
 {{ if .IsPage }}
 {{ with .Params.cover }}{{ if .image }}
-<meta property="og:image" content="{{ .image }}" />
 <meta name="thumbnail" content="{{ .image }}" />
 {{ end }}{{ end }}
-<meta property="og:type" content="article" />
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ .Description }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
 {{ end }}
