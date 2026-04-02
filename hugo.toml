@@ -82,16 +82,19 @@ buildExpired = false
   weight = 1
 
 [[menus.main]]
+  identifier = "onahole-category"
   name = "オナホ"
   url = "/categories/onahole/"
   weight = 10
 
 [[menus.main]]
+  identifier = "vibrator-category"
   name = "バイブ"
   url = "/categories/vibrator/"
   weight = 20
 
 [[menus.main]]
+  identifier = "tenga-category"
   name = "TENGA"
   url = "/categories/tenga/"
   weight = 30
