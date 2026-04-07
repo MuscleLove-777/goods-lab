@@ -16,6 +16,7 @@ buildExpired = false
   filename = "sitemap.xml"
 
 [params]
+googleAnalyticsID = "G-YV53HTHVY2"
   env = "production"
   canonicalURL = true
   description = "オナホ・バイブ・TENGA・ローション…アダルトグッズを専門家目線で毎日レビュー。価格比較・使用感レビュー付き"
