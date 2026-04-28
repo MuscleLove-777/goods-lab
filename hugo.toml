@@ -83,6 +83,7 @@ googleAnalyticsID = "G-YV53HTHVY2"
     noClasses = false
 
 [[menus.main]]
+  identifier = "new-arrivals"
   name = "🔥 新着"
   url = "/"
   weight = 1
@@ -106,41 +107,49 @@ googleAnalyticsID = "G-YV53HTHVY2"
   weight = 30
 
 [[menus.main]]
+  identifier = "lotion"
   name = "ローション"
   url = "/categories/lotion/"
   weight = 40
 
 [[menus.main]]
+  identifier = "cosplay"
   name = "コスプレ衣装"
   url = "/categories/cosplaygoods/"
   weight = 50
 
 [[menus.main]]
+  identifier = "sm-goods"
   name = "SMグッズ"
   url = "/categories/smgoods/"
   weight = 60
 
 [[menus.main]]
+  identifier = "couple"
   name = "カップル"
   url = "/categories/couple/"
   weight = 70
 
 [[menus.main]]
+  identifier = "new-goods"
   name = "新商品"
   url = "/categories/newgoods/"
   weight = 80
 
 [[menus.main]]
+  identifier = "ranking"
   name = "🏆 ランキング"
   url = "/categories/ranking/"
   weight = 90
 
 [[menus.main]]
+  identifier = "all-categories"
   name = "全カテゴリ"
   url = "/categories/"
   weight = 110
 
 [[menus.main]]
+  identifier = "search"
   name = "検索"
   url = "/search/"
   weight = 120
