@@ -81,3 +81,21 @@ cover:
 </aside>
 <!-- ML_CROSS_LINK_END -->
 
+<!-- HUB_INTERLINK_START -->
+<aside class="hub-interlink" style="margin-top:50px;padding:24px;background:#f0f0f0;border-left:4px solid #6c63ff;border-radius:6px;">
+  <h3 style="margin-top:0;">🌐 関連特集</h3>
+  <p style="margin:8px 0 12px;color:#444;font-size:14px;">同サイト内の他テーマも横断チェック</p>
+  <ul style="margin:0;padding-left:20px;line-height:1.9;">
+    <li><a href="/posts/theme-hub-1000円以下/">1000円以下 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-smグッズ/">SMグッズ 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-tenga/">TENGA 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-オナホ/">オナホ 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-カップル/">カップル 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-コスプレ衣装/">コスプレ衣装 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-ソフトsm/">ソフトSM 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-デイリー/">デイリー 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-バイブ/">バイブ 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+    <li><a href="/posts/theme-hub-ランキング/">ランキング 特集ガイド【アイテムカテゴリ別まとめ】</a></li>
+  </ul>
+</aside>
+<!-- HUB_INTERLINK_END -->
