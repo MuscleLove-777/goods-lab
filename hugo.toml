@@ -3,7 +3,8 @@ languageCode = "ja"
 defaultContentLanguage = "ja"
 title = "大人のおもちゃ研究所 | アダルトグッズ厳選レビュー"
 theme = "PaperMod"
-paginate = 30
+[pagination]
+  pagerSize = 50
 
 enableRobotsTXT = true
 buildDrafts = false
