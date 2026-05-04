@@ -40,7 +40,22 @@ googleAnalyticsID = "G-YV53HTHVY2"
 
   [params.homeInfoParams]
     Title = "大人のおもちゃ研究所"
-    Content = "アダルトグッズを毎日厳選レビュー！使用感・価格・おすすめ度をわかりやすく紹介。Presented by MuscleLove"
+    Content = """
+アダルトグッズを毎日厳選レビュー！使用感・価格・おすすめ度をわかりやすく紹介。Presented by MuscleLove
+
+<div class="home-cat-chips" style="display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px;">
+  <strong style="width:100%;font-size:0.95rem;margin-bottom:4px;">🔥 人気カテゴリから探す</strong>
+  <a href="/goods-lab/categories/onahole/" style="padding:6px 14px;background:#e63946;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;font-weight:600;">オナホ</a>
+  <a href="/goods-lab/categories/vibrator/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">バイブ</a>
+  <a href="/goods-lab/categories/tenga/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">TENGA</a>
+  <a href="/goods-lab/categories/lotion/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">ローション</a>
+  <a href="/goods-lab/categories/cosplaygoods/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">コスプレ衣装</a>
+  <a href="/goods-lab/categories/smgoods/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">SMグッズ</a>
+  <a href="/goods-lab/categories/couple/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">カップル</a>
+  <a href="/goods-lab/categories/newgoods/" style="padding:6px 14px;background:#1f2937;color:#fff;text-decoration:none;border-radius:18px;font-size:0.85rem;">新商品</a>
+  <a href="/goods-lab/categories/ranking/" style="padding:6px 14px;background:#f59e0b;color:#000;text-decoration:none;border-radius:18px;font-size:0.85rem;font-weight:600;">🏆 ランキング</a>
+</div>
+"""
 
   [[params.socialIcons]]
     name = "x-twitter"
