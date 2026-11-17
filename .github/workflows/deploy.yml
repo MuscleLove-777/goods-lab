@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - master
+  # Botのpushは他workflowを起動しないため、記事生成の完了と日次の保険で起動する
+  workflow_run:
+    workflows: ["Auto Post Articles"]
+    types: [completed]
+  schedule:
+    - cron: "30 1 * * *"
   workflow_dispatch:
 
 permissions:
