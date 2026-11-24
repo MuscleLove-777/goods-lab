@@ -21,6 +21,8 @@ buildExpired = false
   filename = "sitemap.xml"
 
 [params]
+aiFaq = true
+aiFaqPlatform = "FANZA通販（DMM）"
 googleAnalyticsID = "G-YV53HTHVY2"
   env = "production"
   canonicalURL = true
